@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Jaapokki;
+    src: url(../fonts/Jaapokki/enchance/web/jaapokkienchance-regular.ttf);
+}
+
+body {
+	font-family: Jaapokki;
+	background: url("../img/main.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#header{
+	float : right;
+	margin-top: 40px;
+	color: #ddd;	
+}
+
+#brand{
+	margin-right: 40px;
+	font-size: 100px;
+	text-align: center;
+}
+
+#modo{
+	margin-right: 40px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#quid{
+	width: 50px;
+	margin-top: 40px;
+	font-size: 30px;
+	text-align: center;
+	border: 5px solid #ddd;
+	border-radius: 10px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: background-color 0.5s;
+	transition: color 0.5;
+}
+
+#quid:hover{
+	cursor: pointer;
+	background-color: #ddd;
+	color: black;
+}

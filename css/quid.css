@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Jaapokki;
+    src: url(../fonts/Jaapokki/enchance/web/jaapokkienchance-regular.ttf);
+}
+
+body {
+	font-family: Jaapokki;
+}
+
+#slice1{
+	background-image: url("../img/slice1.png");
+	height: 200px;
+	background-size: 100% 100%;
+	margin: 0px;
+	margin-left: -5px;
+	margin-bottom: 20px;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#brand{
+	color: #ddd;
+	font-size: 80px;
+	text-align: center;
+}
+
+#modo{
+	color: #ddd;
+	font-size: 30px;
+	text-align: center;
+}
+
+#core{
+
+}
+
+#core-left{
+
+}
+
+#core-right{
+	
+}
